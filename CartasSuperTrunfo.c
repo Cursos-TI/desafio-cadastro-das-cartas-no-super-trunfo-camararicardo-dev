@@ -13,57 +13,59 @@ int main() {
     // Seção de inserção de dados pelo usuário
         
         //Primeiro pais
-        printf("Cadastro das informações da carta do primeiro país, insira as infromações conforme solicitadas na tela!");
+        printf("Cadastro das informações da carta do primeiro país, insira as infromações conforme solicitadas na tela!\n \n");
        
         printf("Digite a população do país da primeira carta:");
-        scanf("/d",populacaop1);
+        scanf("%d",&populacaop1);
         
         printf("Digite a quantidade de pontos turisticos do  país da primeira carta:");
-        scanf("/d",pontoturisticop1);
+        scanf("%d",&pontoturisticop1);
         
         printf("Digite a area do país da  primeira carta:");
-        scanf("/f",areap1);
+        scanf("%f",&areap1);
 
         printf("Digite o PIB do país da primeira carta:");
-        scanf("/f", pibp1);
-
+        scanf("%f",&pibp1 );
+      
 
          //Segundo país
-        printf("Cadastro das informações da carta do segundo país, insira as infromações conforme solicitadas na tela!");
+        printf("Cadastro das informações da carta do segundo país, insira as infromações conforme solicitadas na tela!\n \n");
       
 
         printf("Digite a população do país da segunda carta:");
-        scanf("/d",populacaop2);
+        scanf("%d",&populacaop2);
         
         printf("Digite a quantidade de pontos turisticos do  país da segunda carta:");
-        scanf("/d", pontoturisticop2);
+        scanf("%d", &pontoturisticop2);
       
         printf("Digite a area do país da  segunda carta:");
-        scanf("/f",areap2);
+        scanf("%f",&areap2);
         
         printf("Digite o PIB do país da segunda carta:");
-        scanf("/f", pibp2);
+        scanf("%f", &pibp2);
     
         // Seção de exibição dos dados coletados;
 
-        printf("Exibindo informações registradas.....\n");
+        printf("Exibindo informações registradas.....\n \n");
 
         // Carta 1
 
-        printf("Dados da primeira carta:");
+        printf("Dados da primeira carta:\n");
         printf("A população é de:%d \n", populacaop1);
-        printf("Possui %d", pontoturisticop1, " pontos turisticos \n");
+        printf("Quantidade de pontos turisticos é de:%d \n", pontoturisticop1);
         printf("Possui area de %f \n", areap1);
-        printf("Seu PIB é no valor de:%f \n", pibp1);
+        printf("Seu PIB é no valor de:%f \n \n \n", pibp1);
 
+        // Divisão para exibição dos dados da segunda carta
+        printf("..............................................\n \n \n");
 
         // Carta 2
 
-        printf("Dados da segunda carta:");
+        printf("Dados da segunda carta:\n");
         printf("A população é de:%d \n", populacaop2);
-        printf("Possui %d", pontoturisticop2, " pontos turisticos \n");
+        printf("Quantidade de pontos turisticos é de:%d \n", pontoturisticop2);
         printf("Possui area de %f \n", areap2);
-        printf("Seu PIB é no valor de:%f \n", pibp12;
+        printf("Seu PIB é no valor de:%f \n", pibp2);
 
     
 
