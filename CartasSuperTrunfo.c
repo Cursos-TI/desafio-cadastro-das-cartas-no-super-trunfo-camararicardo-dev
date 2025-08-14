@@ -13,7 +13,7 @@ int main() {
     // Seção de inserção de dados pelo usuário
         
         //Primeiro pais
-        printf("Cadastro das informações da carta do primeiro país, insira as infromações conforme solicitadas na tela!\n \n");
+        printf("Cadastro das informações da carta do primeiro país, insira as informações conforme solicitadas na tela!\n \n");
        
         printf("Digite a população do país da primeira carta:");
         scanf("%d",&populacaop1);
@@ -29,7 +29,7 @@ int main() {
       
 
          //Segundo país
-        printf("Cadastro das informações da carta do segundo país, insira as infromações conforme solicitadas na tela!\n \n");
+        printf("Cadastro das informações da carta do segundo país, insira as informações conforme solicitadas na tela!\n \n");
       
 
         printf("Digite a população do país da segunda carta:");
